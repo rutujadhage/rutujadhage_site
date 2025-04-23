@@ -1,0 +1,57 @@
+site_name: Rutuja Dhage
+site_description: Stuff made by Babydollz!!!! 
+site_author: Rutuja Dhage
+
+theme:
+  name: material
+  logo: assets/profile.png
+  favicon: assets/profile.png
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - navigation.instant
+    - header.autohide
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Experience: experience.md
+  - Contact: contact.md
+
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yourprofile
+    - icon: fontawesome/solid/envelope
+      link: mailto:you@example.com
+
+
+# markdown_extensions:
+#   - admonition
+#   - footnotes
+#   - toc:
+#       permalink: true
+#   - pymdownx.superfences
+#   - pymdownx.tabbed
+#   - pymdownx.emoji
+#   - pymdownx.highlight
+#   - pymdownx.inlinehilite
+#   - pymdownx.keys
+#   - pymdownx.snippets
+#   - pymdownx.tasklist:
+#       custom_checkbox: true

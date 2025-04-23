@@ -1,0 +1,50 @@
+/* Example: Smooth section transitions */
+.md-typeset h1,
+.md-typeset h2 {
+    scroll-margin-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+/* Example: Slight animation for images */
+.md-typeset img {
+    transition: transform 0.3s ease;
+}
+
+.md-typeset img:hover {
+    transform: scale(1.03);
+}
+
+
+.md-header__button.md-logo img {
+    height: 7%;
+    /* or any size you like */
+    border-radius: 50%;
+    /* makes it round if it’s a profile pic */
+    margin-right: 10px;
+    /* Adds spacing between image and site title */
+
+}
+
+
+
+/* Home Page Css */
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+    /* Reduced top and bottom margin */
+}
+
+.hero-img {
+    width: 30%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.hero-img:hover {
+    transform: scale(1.03);
+}
