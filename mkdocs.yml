@@ -34,11 +34,11 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername
+      link: https://github.com/rutujadhage
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/yourprofile
+      link: https://www.linkedin.com/in/rutuja-dhage-a8b6631ab/
     - icon: fontawesome/solid/envelope
-      link: mailto:you@example.com
+      link: mailto:rutujadhage@gmail.com
 
 
 # markdown_extensions:
