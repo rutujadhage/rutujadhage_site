@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Rutuja Dhage
+# 👋 Hi, I'm Rutuja
 
 Welcome to my personal portfolio!  
 Data Engineer | Cloud Architect | Cyber Security Enthusiast
